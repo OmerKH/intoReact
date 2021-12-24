@@ -8,9 +8,7 @@ const App = () => {
     <div>
       <Router>
         <header>
-          <Link to="/">
-            <h1>Adopt Me!</h1>
-          </Link>
+          <Link to="/">Adopt Me!</Link>
         </header>
         <Switch>
           <Route path="/details/:id">
